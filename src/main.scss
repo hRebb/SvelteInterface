@@ -3,6 +3,7 @@ body {
   margin-left: 0px;
   margin-top: 0px;
   margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 /* Header */
@@ -89,4 +90,18 @@ header {
   margin-left: 0.5rem;
   -webkit-text-stroke-width: thin;
   font-size: large;
+}
+
+/* footer */
+
+footer {
+  margin-top: 70px;
+  background-color: #D81E5B;
+  padding: 20px;
+  color: white;
+  text-align: center;
+
+  a {
+    color: white;
+  }
 }
