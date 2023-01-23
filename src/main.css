@@ -1,0 +1,89 @@
+/* Main composent */
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+/* Header */
+header {
+  background-color: #D81E5B;
+  padding: 20px;
+}
+header h1 {
+  color: white;
+  margin: 0;
+  margin-bottom: 25px;
+}
+header nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* first section */
+.first {
+  background-color: white;
+  color: darkblue;
+  padding: 20px;
+  text-shadow: 0 0 black;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  font-style: italic;
+  -webkit-text-stroke-width: thin;
+}
+
+/* Second section */
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second label {
+  display: inline-grid;
+  text-align: center;
+  color: crimson;
+  font-size: larger;
+  font-style: italic;
+  -webkit-text-stroke-width: thin;
+}
+
+.addbtn {
+  margin-top: 10px;
+  width: 56%;
+  margin-left: 40px;
+  box-shadow: inset 0px 1px 0px 0px #510ba1;
+  background: linear-gradient(to bottom, #9219cf 5%, #460782 100%);
+  background-color: #9219cf;
+  border-radius: 6px;
+  border: 1px solid #701558;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #610da6;
+}
+.addbtn:hover {
+  background: linear-gradient(to bottom, #460782 5%, #9219cf 100%);
+  background-color: #460782;
+}
+.addbtn:active {
+  position: relative;
+  top: 1px;
+}
+
+.text {
+  text-align: center;
+  background-color: white;
+  color: #d81e5b;
+  text-shadow: 0 0 black;
+  margin-left: 0.5rem;
+  -webkit-text-stroke-width: thin;
+  font-size: large;
+}
+
+/*# sourceMappingURL=main.css.map */
